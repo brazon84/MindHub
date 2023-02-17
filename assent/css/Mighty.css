@@ -68,8 +68,9 @@
         
     }
 
-    .header {
-        height: 50em;
+    .header img {
+        height: 300px;
+        object-fit: cover;
         display: flex;
         text-align: center;
         justify-content: center;
@@ -88,7 +89,7 @@
         display: flex;
         align-content: center;
         justify-content: center;
-        color: var(--blanco);
+        color: black;
         position: relative;
         top: -100px;
         text-align: center;
